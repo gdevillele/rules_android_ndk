@@ -49,7 +49,7 @@ filegroup(
       "bin/*",
       "lib64/**/*",
       "lib/**/*",
-    ]),
+    ], allow_empty = True),
 )
 
 filegroup(
